@@ -23,7 +23,7 @@ services:
       retries: 5
  
   app:
-    image: shiv9777/data-connector-api:v1.7
+    image: shiv9777/data-connector-api:v1.9
     container_name: data_connector_api
     ports:
       - "8000:8000"
